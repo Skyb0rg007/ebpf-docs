@@ -14,8 +14,6 @@ This function gets a reference on the `exe_file` struct file member of the `mm_s
 
 Get a reference on the `exe_file` struct file member field of the `mm_struct` nested within the supplied `task`. The referenced file pointer acquired by this BPF kfunc must be released using [`bpf_put_file`](bpf_put_file.md). Failing to call [`bpf_put_file`](bpf_put_file.md) on the returned referenced struct file pointer that has been acquired by this BPF kfunc will result in the BPF program being rejected by the BPF verifier.
 
-This BPF kfunc may only be called from BPF LSM programs.
-
 Internally, this BPF kfunc leans on `get_task_exe_file`, such that calling `bpf_get_task_exe_file` would be analogous to calling `get_task_exe_file` directly in kernel context.
 
 **Parameters**

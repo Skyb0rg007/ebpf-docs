@@ -14,8 +14,6 @@ This function resolve the path name for the supplied path.
 
 Resolve the path name for the supplied `path` and store it in `buf`. This BPF kfunc is the safer variant of the legacy [`bpf_d_path`](../helper-function/bpf_d_path.md) helper and should be used in place of [`bpf_d_path`](../helper-function/bpf_d_path.md) whenever possible. It enforces `KF_TRUSTED_ARGS` semantics, meaning that the supplied `path` must itself hold a valid reference, or else the BPF program will be outright rejected by the BPF verifier.
 
-This BPF kfunc may only be called from BPF LSM programs.
-
 **Parameters**
 
 `path`: path to resolve the pathname for

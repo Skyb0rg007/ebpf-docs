@@ -14,8 +14,6 @@ This function puts a reference on the supplied file.
 
 Put a reference on the supplied `file`. Only referenced file pointers may be passed to this BPF kfunc. Attempting to pass an unreferenced file pointer, or any other arbitrary pointer for that matter, will result in the BPF program being rejected by the BPF verifier.
 
-This BPF kfunc may only be called from BPF LSM programs.
-
 **Parameters**
 
 `file`: file to put a reference on
