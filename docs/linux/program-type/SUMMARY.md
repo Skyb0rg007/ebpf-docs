@@ -40,4 +40,5 @@
   * [`struct Qdisc_ops`](BPF_PROG_TYPE_STRUCT_OPS/Qdisc_ops.md)
   * [`struct smc_hs_ctrl_ops`](BPF_PROG_TYPE_STRUCT_OPS/smc_hs_ctrl_ops.md)
   * [`struct io_uring_bpf_ops`](BPF_PROG_TYPE_STRUCT_OPS/io_uring_bpf_ops.md)
+  * [`struct binfmt_misc_ops`](BPF_PROG_TYPE_STRUCT_OPS/binfmt_misc_ops.md)
 * [`BPF_PROG_TYPE_SYSCALL`](BPF_PROG_TYPE_SYSCALL.md)
