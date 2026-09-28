@@ -2719,4 +2719,7 @@
     - name: bpf_real_data_inode
       version: v7.2
       commit: 3f8c65b06fafc3f779abda5f7b81707411d05d4c
+    - name: bpf_binprm_set_interp
+      version: v7.3
+      commit: b4bfe2f6b0117f3d8de6430bdaee10094383e97a
 

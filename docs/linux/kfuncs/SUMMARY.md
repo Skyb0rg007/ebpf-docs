@@ -418,3 +418,5 @@
   - [`bpf_wakeup_sources_get_head`](bpf_wakeup_sources_get_head.md)
   - [`bpf_wakeup_sources_read_lock`](bpf_wakeup_sources_read_lock.md)
   - [`bpf_wakeup_sources_read_unlock`](bpf_wakeup_sources_read_unlock.md)
+- binfmt_misc Kfuncs
+  - [`bpf_binprm_set_interp`](bpf_binprm_set_interp.md)

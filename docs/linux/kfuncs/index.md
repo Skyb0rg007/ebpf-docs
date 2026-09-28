@@ -584,3 +584,9 @@ These kfuncs allow for the iteration of wake-up sources in BPF, which is faster 
 - [`bpf_wakeup_sources_get_head`](bpf_wakeup_sources_get_head.md)
 - [`bpf_wakeup_sources_read_lock`](bpf_wakeup_sources_read_lock.md)
 - [`bpf_wakeup_sources_read_unlock`](bpf_wakeup_sources_read_unlock.md)
+
+## binfmt_misc Kfuncs
+
+These kfuncs allow the `load` program of a [`binfmt_misc_ops`](../program-type/BPF_PROG_TYPE_STRUCT_OPS/binfmt_misc_ops.md) handler to select the interpreter for a binary and how it is invoked.
+
+- [`bpf_binprm_set_interp`](bpf_binprm_set_interp.md)

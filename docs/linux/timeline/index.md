@@ -1097,3 +1097,7 @@ hide: toc
 * `bpf_list_is_first` [745515d](https://github.com/torvalds/linux/commit/745515d386eb5e6891d9f91a92ad15dace3a33ef) (kfuncs)
 * `bpf_list_is_last` [745515d](https://github.com/torvalds/linux/commit/745515d386eb5e6891d9f91a92ad15dace3a33ef) (kfuncs)
 * `bpf_real_data_inode` [3f8c65b](https://github.com/torvalds/linux/commit/3f8c65b06fafc3f779abda5f7b81707411d05d4c) (kfuncs)
+
+## :octicons-tag-24: v7.3
+
+* `bpf_binprm_set_interp` [b4bfe2f](https://github.com/torvalds/linux/commit/b4bfe2f6b0117f3d8de6430bdaee10094383e97a) (kfuncs)
