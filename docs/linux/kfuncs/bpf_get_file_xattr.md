@@ -40,6 +40,7 @@ The following program types can make use of this kfunc:
 
 <!-- [KFUNC_PROG_REF] -->
 - [`BPF_PROG_TYPE_LSM`](../program-type/BPF_PROG_TYPE_LSM.md)
+- [`BPF_PROG_TYPE_STRUCT_OPS`](../program-type/BPF_PROG_TYPE_STRUCT_OPS.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
 - [`BPF_PROG_TYPE_TRACING`](../program-type/BPF_PROG_TYPE_TRACING.md)
 <!-- [/KFUNC_PROG_REF] -->
 

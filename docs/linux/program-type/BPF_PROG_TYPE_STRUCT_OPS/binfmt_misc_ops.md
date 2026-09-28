@@ -135,6 +135,15 @@ Only the [`load`](#load) program can call the following kfuncs:
 * [`bpf_binprm_set_interp_arg`](../../kfuncs/bpf_binprm_set_interp_arg.md)
 * [`bpf_binprm_set_flags`](../../kfuncs/bpf_binprm_set_flags.md)
 
+Both programs can call the following file system kfuncs, which are not available to other struct ops. [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6)
+
+* [`bpf_get_task_exe_file`](../../kfuncs/bpf_get_task_exe_file.md)
+* [`bpf_put_file`](../../kfuncs/bpf_put_file.md)
+* [`bpf_path_d_path`](../../kfuncs/bpf_path_d_path.md)
+* [`bpf_get_dentry_xattr`](../../kfuncs/bpf_get_dentry_xattr.md)
+* [`bpf_get_file_xattr`](../../kfuncs/bpf_get_file_xattr.md)
+* [`bpf_real_data_inode`](../../kfuncs/bpf_real_data_inode.md)
+
 ## Example
 
 The following handler routes 64-bit ELF binaries of other architectures to an interpreter for each architecture. The entry binds the interpreters under the names `first` and `second`, as shown in [binding interpreters](#binding-interpreters).

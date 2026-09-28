@@ -425,9 +425,12 @@ Not all helper functions are available in all program types. These are the helpe
     - [`bpf_dynptr_size`](../kfuncs/bpf_dynptr_size.md)
     - [`bpf_dynptr_slice`](../kfuncs/bpf_dynptr_slice.md)
     - [`bpf_dynptr_slice_rdwr`](../kfuncs/bpf_dynptr_slice_rdwr.md)
+    - [`bpf_get_dentry_xattr`](../kfuncs/bpf_get_dentry_xattr.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
+    - [`bpf_get_file_xattr`](../kfuncs/bpf_get_file_xattr.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
     - [`bpf_get_kmem_cache`](../kfuncs/bpf_get_kmem_cache.md)
     - [`bpf_get_mem_cgroup`](../kfuncs/bpf_get_mem_cgroup.md)
     - [`bpf_get_root_mem_cgroup`](../kfuncs/bpf_get_root_mem_cgroup.md)
+    - [`bpf_get_task_exe_file`](../kfuncs/bpf_get_task_exe_file.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
     - [`bpf_io_uring_get_region`](../kfuncs/bpf_io_uring_get_region.md)
     - [`bpf_io_uring_submit_sqes`](../kfuncs/bpf_io_uring_submit_sqes.md)
     - [`bpf_iter_bits_destroy`](../kfuncs/bpf_iter_bits_destroy.md)
@@ -483,6 +486,7 @@ Not all helper functions are available in all program types. These are the helpe
     - [`bpf_obj_drop_impl`](../kfuncs/bpf_obj_drop_impl.md)
     - [`bpf_obj_new`](../kfuncs/bpf_obj_new.md)
     - [`bpf_obj_new_impl`](../kfuncs/bpf_obj_new_impl.md)
+    - [`bpf_path_d_path`](../kfuncs/bpf_path_d_path.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
     - [`bpf_percpu_obj_drop`](../kfuncs/bpf_percpu_obj_drop.md)
     - [`bpf_percpu_obj_drop_impl`](../kfuncs/bpf_percpu_obj_drop_impl.md)
     - [`bpf_percpu_obj_new`](../kfuncs/bpf_percpu_obj_new.md)
@@ -493,6 +497,7 @@ Not all helper functions are available in all program types. These are the helpe
     - [`bpf_probe_read_kernel_str_dynptr`](../kfuncs/bpf_probe_read_kernel_str_dynptr.md)
     - [`bpf_probe_read_user_dynptr`](../kfuncs/bpf_probe_read_user_dynptr.md)
     - [`bpf_probe_read_user_str_dynptr`](../kfuncs/bpf_probe_read_user_str_dynptr.md)
+    - [`bpf_put_file`](../kfuncs/bpf_put_file.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
     - [`bpf_put_mem_cgroup`](../kfuncs/bpf_put_mem_cgroup.md)
     - [`bpf_qdisc_bstats_update`](../kfuncs/bpf_qdisc_bstats_update.md)
     - [`bpf_qdisc_init_prologue`](../kfuncs/bpf_qdisc_init_prologue.md)
@@ -509,6 +514,7 @@ Not all helper functions are available in all program types. These are the helpe
     - [`bpf_rcu_read_lock`](../kfuncs/bpf_rcu_read_lock.md)
     - [`bpf_rcu_read_unlock`](../kfuncs/bpf_rcu_read_unlock.md)
     - [`bpf_rdonly_cast`](../kfuncs/bpf_rdonly_cast.md)
+    - [`bpf_real_data_inode`](../kfuncs/bpf_real_data_inode.md) [:octicons-tag-24: v7.3](https://github.com/torvalds/linux/commit/7bddf0e9f1081935d11d01d9344dbe7c3fda07f6) - 
     - [`bpf_refcount_acquire`](../kfuncs/bpf_refcount_acquire.md)
     - [`bpf_refcount_acquire_impl`](../kfuncs/bpf_refcount_acquire_impl.md)
     - [`bpf_res_spin_lock`](../kfuncs/bpf_res_spin_lock.md)
