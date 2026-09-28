@@ -421,3 +421,4 @@
 - binfmt_misc Kfuncs
   - [`bpf_binprm_set_interp`](bpf_binprm_set_interp.md)
   - [`bpf_binprm_set_interp_arg`](bpf_binprm_set_interp_arg.md)
+  - [`bpf_binprm_set_flags`](bpf_binprm_set_flags.md)
