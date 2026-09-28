@@ -1103,3 +1103,4 @@ hide: toc
 * `bpf_binprm_set_interp` [b4bfe2f](https://github.com/torvalds/linux/commit/b4bfe2f6b0117f3d8de6430bdaee10094383e97a) (kfuncs)
 * `bpf_binprm_set_interp_arg` [b4bfe2f](https://github.com/torvalds/linux/commit/b4bfe2f6b0117f3d8de6430bdaee10094383e97a) (kfuncs)
 * `bpf_binprm_set_flags` [b4bfe2f](https://github.com/torvalds/linux/commit/b4bfe2f6b0117f3d8de6430bdaee10094383e97a) (kfuncs)
+* `bpf_binprm_select_interp` [6ec7c96](https://github.com/torvalds/linux/commit/6ec7c96bee30a7d9f3982951aa19f712feb14f6a) (kfuncs)
